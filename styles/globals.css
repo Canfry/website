@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+:root {
+  --bg-color: hsl(240, 31%, 5%);
+  --text-color: hsl(201, 45%, 80%);
+  --text-secondary-color: hsl(201, 60%, 54%);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}

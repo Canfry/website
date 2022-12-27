@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16px"
+   height="16px"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   sodipodi:docname="logo.svg"
+   inkscape:dataloss="true"
+   inkscape:export-filename="logo.svg"
+   inkscape:export-xdpi="3.078788"
+   inkscape:export-ydpi="3.078788"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.72880595"
+     inkscape:cx="266.87488"
+     inkscape:cy="474.74914"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid213" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#558a8f;stroke-width:5.57889;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+       d="M 68.887585,63.831964 28.007048,111.85082 68.887585,159.05583"
+       id="path215" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#558a8f;stroke-width:5.57889;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+       d="M 125.8463,158.40899 147.63522,133.9148 167.42317,111.66999 127.24564,63.206849"
+       id="path217"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#558a8f;stroke-width:5.57889;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+       d="M 110.49913,63.831964 85.858811,158.24195"
+       id="path251" />
+  </g>
+</svg>
