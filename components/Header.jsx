@@ -34,6 +34,14 @@ export default function Header() {
             </li>
             <li>
               <Link
+                href='/work'
+                className={router.pathname === '/work' ? styles.active : null}
+              >
+                Work
+              </Link>
+            </li>
+            <li>
+              <Link
                 href='/blog'
                 className={router.pathname === '/blog' ? styles.active : null}
               >
