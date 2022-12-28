@@ -1,0 +1,67 @@
+.mainContainer {
+  max-width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mainHeader h1 {
+  color: var(--text-lightgrey-color);
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.mainHeader h2 {
+  font-size: 3.5rem;
+}
+
+.mainHeader span {
+  color: var(--text-secondary-color);
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.btnLearn {
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  background-color: transparent;
+  border: 1px solid var(--text-secondary-color);
+  color: var(--text-secondary-color);
+  border-radius: 0.75rem;
+  font-size: 1rem;
+}
+
+.btnLearn:hover {
+  color: var(--text-color);
+  background-color: var(--text-secondary-color);
+}
+
+.btnWork {
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  background-color: var(--text-color);
+  border: 1px solid var(--text-color);
+  color: var(--bg-color);
+  border-radius: 0.75rem;
+  font-size: 1rem;
+}
+
+.btnWork:hover {
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  background-color: transparent;
+}

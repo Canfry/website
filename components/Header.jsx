@@ -19,7 +19,7 @@ export default function Header() {
             <li>
               <Link
                 href='/'
-                className={router.pathname === '/' && styles.active}
+                className={router.pathname === '/' ? styles.active : null}
               >
                 Home
               </Link>
@@ -27,7 +27,7 @@ export default function Header() {
             <li>
               <Link
                 href='/about'
-                className={router.pathname === '/about' && styles.active}
+                className={router.pathname === '/about' ? styles.active : null}
               >
                 About
               </Link>
@@ -35,7 +35,7 @@ export default function Header() {
             <li>
               <Link
                 href='/blog'
-                className={router.pathname === '/blog' && styles.active}
+                className={router.pathname === '/blog' ? styles.active : null}
               >
                 Blog
               </Link>
@@ -43,7 +43,9 @@ export default function Header() {
             <li>
               <Link
                 href='/contact'
-                className={router.pathname === '/contact' && styles.active}
+                className={
+                  router.pathname === '/contact' ? styles.active : null
+                }
               >
                 Contact
               </Link>

@@ -1,5 +1,4 @@
 .headerContainer {
-  flex: 1;
   width: 100%;
 }
 
@@ -34,7 +33,7 @@
   gap: 2rem;
 }
 
-.navContainer li:hover {
+.navContainer li a:hover {
   color: var(--text-secondary-color);
 }
 

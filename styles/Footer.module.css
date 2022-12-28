@@ -1,0 +1,10 @@
+.footer {
+  padding: 2rem 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer h3 {
+  font-weight: 200;
+  font-size: 0.9rem;
+}
