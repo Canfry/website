@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  place-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.container span {
+  color: var(--text-secondary-color);
+}
+
+.container h2 {
+  margin-bottom: 2rem;
+}
