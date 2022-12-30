@@ -53,3 +53,44 @@
   border: 1px solid var(--text-color);
   background-color: transparent;
 }
+
+@media (min-width: 300px) {
+  .aboutContainer h1 {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  .aboutContainer p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .aboutContainer h1 {
+    font-size: 1.1rem;
+  }
+  .aboutContainer p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .aboutContainer h1 {
+    font-size: 1.3rem;
+  }
+  .aboutContainer p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .github {
+    font-size: 1.5rem;
+  }
+  .twitter {
+    font-size: 1.5rem;
+  }
+  .contact {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+}

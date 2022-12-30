@@ -1,5 +1,6 @@
 .headerContainer {
   width: 100%;
+  position: relative;
 }
 
 .header {
@@ -26,17 +27,105 @@
   font-weight: 700;
 }
 
-.navContainer {
+.navBar {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
 }
 
-.navContainer li a:hover {
+.navBar li a:hover {
   color: var(--text-secondary-color);
 }
 
 .active {
   color: var(--text-secondary-color);
+}
+
+.menuIcon {
+  width: 3rem;
+  height: 2rem;
+  color: var(--text-color);
+}
+
+.menuIconButton {
+  cursor: pointer;
+  position: absolute;
+  top: 3.6rem;
+  right: 3rem;
+  border: none;
+  background-color: transparent;
+}
+
+.closeIcon {
+  width: 3rem;
+  height: 2rem;
+  color: var(--text-color);
+}
+
+.closeIconButton {
+  cursor: pointer;
+  position: absolute;
+  top: 3.6rem;
+  right: 3rem;
+  border: none;
+  background-color: transparent;
+}
+
+.hide {
+  display: none;
+}
+
+.menuOpen {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  border-left: 1px solid var(--text-secondary-color);
+  padding: 6.6rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 2rem;
+  animation: open 0.9s ease-in-out;
+}
+
+.navBarMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navBarMenu li a:hover {
+  color: var(--text-secondary-color);
+}
+
+@keyframes open {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 900px) {
+  .navContainer {
+    display: none;
+  }
+  .header {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 900px) {
+  .menuOpen {
+    display: none;
+  }
+
+  .menuIconButton {
+    display: none;
+  }
 }

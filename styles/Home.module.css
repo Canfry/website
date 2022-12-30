@@ -69,3 +69,12 @@
   border: 1px solid var(--text-color);
   background-color: transparent;
 }
+
+@media (max-width: 762px) {
+  .mainHeader h1 {
+    font-size: 0.9rem;
+  }
+  .mainHeader h2 {
+    font-size: 2.5rem;
+  }
+}
