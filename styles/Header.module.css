@@ -89,6 +89,8 @@
   font-size: 1.2rem;
   gap: 2rem;
   animation: open 0.9s ease-in-out;
+  background-color: var(--bg-color);
+  z-index: 10;
 }
 
 .navBarMenu {

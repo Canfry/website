@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <div className={styles.headerContainer}>
-      <header className={styles.header}>
+      <div className={styles.header}>
         <div className={styles.logo}>
           <Link href='/'>
             <h1>
@@ -85,6 +85,7 @@ export default function Header() {
                 <Link
                   href='/'
                   className={router.pathname === '/' ? styles.active : null}
+                  onClick={() => setIsOpen(false)}
                 >
                   Home
                 </Link>
@@ -95,6 +96,7 @@ export default function Header() {
                   className={
                     router.pathname === '/about' ? styles.active : null
                   }
+                  onClick={() => setIsOpen(false)}
                 >
                   About
                 </Link>
@@ -103,6 +105,7 @@ export default function Header() {
                 <Link
                   href='/work'
                   className={router.pathname === '/work' ? styles.active : null}
+                  onClick={() => setIsOpen(false)}
                 >
                   Work
                 </Link>
@@ -111,6 +114,7 @@ export default function Header() {
                 <Link
                   href='/blog'
                   className={router.pathname === '/blog' ? styles.active : null}
+                  onClick={() => setIsOpen(false)}
                 >
                   Blog
                 </Link>
@@ -121,6 +125,7 @@ export default function Header() {
                   className={
                     router.pathname === '/contact' ? styles.active : null
                   }
+                  onClick={() => setIsOpen(false)}
                 >
                   Contact
                 </Link>
@@ -128,7 +133,7 @@ export default function Header() {
             </ul>
           </div>
         )}
-      </header>
+      </div>
     </div>
   );
 }
