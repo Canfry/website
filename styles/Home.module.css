@@ -2,29 +2,30 @@
   max-width: 70%;
   height: 100%;
   margin: 0 auto;
-  display: grid;
-  place-content: center;
-  text-align: center;
 }
 
 .mainHeader {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 100%;
 }
 
 .mainHeader h1 {
   color: var(--text-lightgrey-color);
   font-size: 1.5rem;
   font-weight: 300;
+  text-align: left;
 }
 
 .mainHeader h2 {
   font-size: 3.5rem;
+  text-align: left;
 }
 
 .mainHeader p {
   font-size: 1.1rem;
+  text-align: left;
 }
 
 .mainHeader span {
@@ -35,7 +36,7 @@
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 2rem;
 }
 

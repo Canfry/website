@@ -11,9 +11,9 @@ html {
 }
 
 :root {
-  --bg-color: hsl(240, 31%, 5%);
-  --text-color: hsl(201, 45%, 80%);
-  --text-secondary-color: hsl(201, 60%, 54%);
+  --bg-color: hsl(240, 6%, 10%);
+  --text-color: hsl(0, 0%, 100%);
+  --text-secondary-color: hsl(189, 94%, 43%);
   --text-lightgrey-color: hsl(216, 16%, 41%);
 }
 

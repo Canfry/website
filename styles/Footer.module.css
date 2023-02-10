@@ -2,6 +2,7 @@
   padding: 2rem 1rem;
   width: 100%;
   text-align: center;
+  color: var(--text-lightgrey-color);
 }
 
 .footer h3 {

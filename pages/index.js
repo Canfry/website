@@ -2,9 +2,9 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { useRouter } from 'next/router';
 
-import { Inter } from '@next/font/google';
+// import { Inter } from '@next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+// const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   const router = useRouter();
@@ -22,8 +22,8 @@ export default function Home() {
             I build <span>websites</span> and <span>web applications</span>.
           </h2>
           <p>
-            I&apos;m a full-stack developer who turns your projects/business
-            into digital content.
+            I&apos;m a front-end developer who turns your projects/business into
+            digital content.
           </p>
           <div className={styles.btnContainer}>
             <button
