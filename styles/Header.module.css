@@ -72,10 +72,6 @@
   background-color: transparent;
 }
 
-.hide {
-  display: none;
-}
-
 .menuOpen {
   position: absolute;
   top: 0;
