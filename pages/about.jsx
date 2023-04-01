@@ -1,6 +1,7 @@
 import styles from '../styles/About.module.css';
 import { BsGithub } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
+import { SiHashnode } from 'react-icons/si';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
@@ -43,12 +44,20 @@ export default function About() {
           </Link>
 
           <Link
-            href={'https://twitter.com/design_fry'}
+            href={'https://twitter.com/ChristopheAnfry'}
             target='_blank'
             rel='noreferrer'
             className={styles.twitter}
           >
             <BsTwitter />
+          </Link>
+          <Link
+            href={'https://fryblog.hashnode.dev/'}
+            target='_blank'
+            rel='noreferrer'
+            className={styles.hashnode}
+          >
+            <SiHashnode />
           </Link>
         </div>
         <div className={styles.btnContainer}>

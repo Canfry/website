@@ -51,6 +51,16 @@
   scale: 1.2;
 }
 
+.hashnode {
+  font-size: 2rem;
+  color: hsl(224, 100%, 58%);
+  transition: all 0.3s ease-in-out;
+}
+
+.hashnode:hover {
+  scale: 1.2;
+}
+
 .contact {
   cursor: pointer;
   padding: 0.75rem 1rem;
@@ -103,8 +113,29 @@
   .twitter {
     font-size: 1.5rem;
   }
+  .hashnode {
+    font-size: 1.5rem;
+  }
   .contact {
     padding: 0.5rem 0.75rem;
     font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1281px) {
+  .aboutContainer h1 {
+    font-size: 1.8rem;
+  }
+  .contact {
+    font-size: 1.3rem;
+  }
+  .github {
+    font-size: 2.5rem;
+  }
+  .twitter {
+    font-size: 2.5rem;
+  }
+  .aboutContainer p {
+    font-size: 1.2rem;
   }
 }

@@ -13,7 +13,7 @@ export default function Layout({ children }) {
   return (
     <div className={styles.layoutContainer}>
       <Header className={titillium.className} />
-      <main className={styles.mainLayout}>{children}</main>
+      <section className={styles.mainLayout}>{children}</section>
       <Footer />
     </div>
   );

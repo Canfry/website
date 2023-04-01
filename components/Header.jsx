@@ -47,8 +47,9 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href='/blog'
-                className={router.pathname === '/blog' ? styles.active : null}
+                href={'https://fryblog.netlify.app'}
+                target='_blank'
+                rel='noreferrer'
               >
                 Blog
               </Link>
