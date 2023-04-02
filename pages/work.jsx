@@ -25,72 +25,84 @@ export default function work() {
               </p>
             </div>
             <div className={styles.tagLinks}>
-              <div className={styles.languageTags}>
-                <Link
-                  href='https://astro.build/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  Astro
-                </Link>
-                <Link
-                  href='https://tailwindcss.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  Tailwindcss
-                </Link>
-              </div>
               <div className={styles.externalLinks}>
                 <Link
                   href='https://fryblog.netlify.app'
                   target='_blank'
                   rel='noreferrer'
+                  className={styles.blog}
                 >
-                  Blog
+                  <button>Blog</button>
                 </Link>
                 <Link
                   href='https://github.com/Canfry/blog'
                   target='_blank'
                   rel='noreferrer'
+                  className={styles.repo}
                 >
-                  Repo
+                  <button>Repo</button>
                 </Link>
               </div>
             </div>
           </div>
           <div className={styles.card}>
-            <div className={styles.coverImg}> </div>
+            <div className={styles.coverImg}></div>
             <div className={styles.cardDescription}>
+              <h1 className={styles.descriptionHeader}>My personal blog</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
-                cum sunt aut fugiat nulla explicabo sint laborum iure? Corporis,
-                cupiditate.
+                Creation of my personal blog, using Astro framework and
+                Tailwindcss.
               </p>
             </div>
-            <div>
-              <ul>
-                <li>MongoDB</li>
-                <li>Nextjs</li>
-                <li>Express</li>
-              </ul>
+            <div className={styles.tagLinks}>
+              <div className={styles.externalLinks}>
+                <Link
+                  href='https://fryblog.netlify.app'
+                  target='_blank'
+                  rel='noreferrer'
+                  className={styles.blog}
+                >
+                  <button>Blog</button>
+                </Link>
+                <Link
+                  href='https://github.com/Canfry/blog'
+                  target='_blank'
+                  rel='noreferrer'
+                  className={styles.repo}
+                >
+                  <button>Repo</button>
+                </Link>
+              </div>
             </div>
           </div>
           <div className={styles.card}>
             <div className={styles.coverImg}></div>
             <div className={styles.cardDescription}>
+              <h1 className={styles.descriptionHeader}>My personal blog</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
-                cum sunt aut fugiat nulla explicabo sint laborum iure? Corporis,
-                cupiditate.
+                Creation of my personal blog, using Astro framework and
+                Tailwindcss.
               </p>
             </div>
-            <div>
-              <ul>
-                <li>Nestjs</li>
-                <li>React</li>
-                <li>PlanetScale</li>
-              </ul>
+            <div className={styles.tagLinks}>
+              <div className={styles.externalLinks}>
+                <Link
+                  href='https://fryblog.netlify.app'
+                  target='_blank'
+                  rel='noreferrer'
+                  className={styles.blog}
+                >
+                  <button>Blog</button>
+                </Link>
+                <Link
+                  href='https://github.com/Canfry/blog'
+                  target='_blank'
+                  rel='noreferrer'
+                  className={styles.repo}
+                >
+                  <button>Repo</button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
