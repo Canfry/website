@@ -28,31 +28,41 @@ export default function Contact() {
         <div className={styles.heading}>
           <h1>Contact me</h1>
         </div>
-        <form>
-          <label htmlFor='name'>Name</label>
+        <form className={styles.form}>
+          <label htmlFor='name' className={styles.label}>
+            Name
+          </label>
           <input
             type='text'
             value={name}
             placeholder='Enter your name'
             onChange={handleChange}
             name='name'
+            className={styles.input}
           />
-          <label htmlFor='email'>Email</label>
+          <label htmlFor='email' className={styles.label}>
+            Email
+          </label>
           <input
             type='text'
             value={email}
             placeholder='Enter your email'
             name='email'
             onChange={handleChange}
+            className={styles.input}
           />
-          <label htmlFor='message'></label>
+          <label htmlFor='message' className={styles.label}>
+            Message
+          </label>
           <textarea
             name='message'
             id='message'
             placeholder='Enter your message'
             value={message}
             onChange={handleChange}
+            className={styles.textarea}
           ></textarea>
+          <button className={styles.button}>Send</button>
         </form>
         <p>{name}</p>
         <p>{email}</p>

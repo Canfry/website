@@ -18,7 +18,7 @@ export default function About() {
       <div className={styles.aboutContainer}>
         <h1>
           My name is Christophe Anfry, I&apos;m 40 and I&apos;m a frontend web
-          developer. I started 3 years ago to learn web development. For most of
+          developer. I started 3 years ago learning web development. For most of
           the people COVID-19 has been a negative experience, but for me, it has
           been a rebirth. I took the opportunity to think about learning
           something new and that I love. I&apos;ve worked before as a technical
