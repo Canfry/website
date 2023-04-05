@@ -17,7 +17,7 @@ export default function About() {
       </Head>
       <div className={styles.aboutContainer}>
         <h1>
-          My name is Christophe Anfry, I&apos;m 40 and I&apos;m a frontend web
+          My name is Christophe Anfry, I&apos;m 40 and I&apos;m a fullstack
           developer. I started 3 years ago learning web development. For most of
           the people COVID-19 has been a negative experience, but for me, it has
           been a rebirth. I took the opportunity to think about learning
@@ -26,7 +26,7 @@ export default function About() {
           programmimg stuff. At this time I had no time for that, so when we
           have been confined at home I took my chance and started learning HTML,
           CSS and Javascript. The more I was learning the more I wanted to
-          learn, and to make it my principal job. I&apos;ve been always worked
+          learn, and to make it my principal job. I&apos;ve been always working
           for customers and my joy is the customer satisfaction. Now I&apos;m
           comfortable with frontend and backend, and ready to create wonderful
           projects for you.
