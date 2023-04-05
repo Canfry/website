@@ -27,7 +27,7 @@ export default function About() {
           have been confined at home I took my chance and started learning HTML,
           CSS and Javascript. The more I was learning the more I wanted to
           learn, and to make it my principal job. I&apos;ve been always working
-          for customers and my joy is the customer satisfaction. Now I&apos;m
+          for customers and my joy is the customer satisfaction. Now, I&apos;m
           comfortable with frontend and backend, and ready to create wonderful
           projects for you.
         </h1>
