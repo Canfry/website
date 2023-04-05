@@ -22,7 +22,7 @@ export default function Home() {
             I build <span>websites</span> and <span>web applications</span>.
           </h2>
           <p>
-            I&apos;m a front-end developer who turns your projects/business into
+            I&apos;m a fullstack developer who turns your projects/business into
             digital content.
           </p>
           <div className={styles.btnContainer}>
