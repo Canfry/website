@@ -47,7 +47,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href={'https://fryblog.netlify.app'}
+                href='https://fryblog.netlify.app'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -113,7 +113,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href='/blog'
+                  href='https://fryblog.netlify.app'
                   className={router.pathname === '/blog' ? styles.active : null}
                   onClick={() => setIsOpen(false)}
                 >
