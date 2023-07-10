@@ -1,5 +1,5 @@
 import blogImg from './public/fryblog.png';
-import marketplaceImg from './public/house-marketplace.png';
+import marketplaceImg from './public/house.marketplace.png';
 
 export const projects = [
   {
