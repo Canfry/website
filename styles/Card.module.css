@@ -1,0 +1,110 @@
+.card {
+  background-color: rgba(255, 255, 255, 0.03);
+  /* border: 1px solid var(--text-secondary-color); */
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 25px 2px black;
+}
+
+.coverImg:nth-child(1) {
+  opacity: 0.7;
+  background-image: url('../public/fryblog.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 1rem 1rem 0 0;
+  /* filter: blur(2px); */
+  position: relative;
+}
+
+.coverImg:nth-child(2) {
+  opacity: 0.7;
+  background-image: url('../public/house-marketplace.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 1rem 1rem 0 0;
+  /* filter: blur(2px); */
+  position: relative;
+}
+
+.cardDescription {
+  padding: 1rem;
+}
+
+.descriptionHeader {
+  color: var(--text-secondary-color);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.cardDescription p {
+  font-weight: 200;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.tagLinks {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tagLinks button {
+  padding: 0.5rem 0.5rem;
+  border-radius: 1rem;
+  color: rgb(235, 235, 235);
+}
+
+.externalLinks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgb(235, 235, 235);
+  font-weight: 100;
+}
+
+.externalLinks button {
+  padding: 0.6rem 1.4rem;
+  cursor: pointer;
+}
+
+.externalLinks button:nth-child(1) {
+  background-color: var(--bg-color);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.externalLinks button:nth-child(2) {
+  background-color: var(--bg-color);
+  border: 1px solid var(--text-secondary-color);
+  color: white;
+}
+
+.externalLinks button:nth-child(2):hover {
+  border: 1px solid black;
+  background-color: black;
+}
+
+.externalLinks button:nth-child(1):hover {
+  border: 1px solid black;
+  background-color: black;
+}
+
+@media (max-width: 900px) {
+  .workContainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .workContainer {
+    width: 70%;
+  }
+}
