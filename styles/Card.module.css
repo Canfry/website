@@ -1,9 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16rem;
+}
+
 .card {
   background-color: rgba(255, 255, 255, 0.03);
   /* border: 1px solid var(--text-secondary-color); */
   width: 100%;
   border-radius: 1rem;
   box-shadow: 1px 1px 25px 2px black;
+  transition: all 0.7s ease;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 25px 2px var(--text-secondary-color);
 }
 
 .coverImg {
@@ -78,6 +90,15 @@
 .externalLinks button:nth-child(1):hover {
   border: 1px solid black;
   background-color: black;
+}
+
+.skillList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  color: var(--text-secondary-color);
 }
 
 @media (max-width: 900px) {

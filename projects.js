@@ -10,14 +10,26 @@ export const projects = [
     repo: 'https://github.com/Canfry/blog',
     website: 'https://fryblog.netlify.app',
     image: blogImg,
+    skills: ['Astro', 'Tailwindcss'],
   },
   {
     id: 2,
     header: 'House Marketplace',
     description:
-      'Creating a marketplace where you can manage sales or rent for your houses or apartements. You can create listings and users can contact you via email..',
+      'Creating a marketplace where you can manage sales or rent for your properties.',
     repo: 'https://github.com/Canfry/house_marketplace',
     website: 'https://house-marketplace-c6rw4cgq3-canfry.vercel.app/',
     image: marketplaceImg,
+    skills: ['Reactjs', 'CSS', 'Firebase'],
+  },
+  {
+    id: 3,
+    header: 'House Marketplace',
+    description:
+      'Creating a marketplace where you can manage sales or rent for your properties.',
+    repo: 'https://github.com/Canfry/house_marketplace',
+    website: 'https://house-marketplace-c6rw4cgq3-canfry.vercel.app/',
+    image: marketplaceImg,
+    skills: ['Reactjs', 'CSS', 'Firebase'],
   },
 ];
