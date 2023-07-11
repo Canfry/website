@@ -1,8 +1,10 @@
 .aboutContainer {
   max-width: 70%;
   margin: 0 auto;
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   text-align: center;
 }
 
