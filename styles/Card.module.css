@@ -59,9 +59,10 @@
 }
 
 .externalLinks {
+  width: 100%;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: space-between;
   color: rgb(235, 235, 235);
   font-weight: 100;
 }
