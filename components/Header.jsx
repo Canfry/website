@@ -47,7 +47,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href='https://fryblog.netlify.app'
+                href='https://blog.anfrydev.com'
                 target='_blank'
                 rel='noreferrer'
               >
